@@ -47,7 +47,7 @@
 h1 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
-	font-size: 48px;
+	font-size: 77px;
 }
 
 h2 {
@@ -69,3 +69,18 @@ p {
 }
 
 /*3. Classes*/
+.hero {
+	height: 500px;
+	background-size: cover;
+	background-position: center center;
+	background-image: url('./resources/patrick-fore-unsplash_scaled.jpeg');
+	transform: translate3d(0px, 0px, 0px);
+}
+
+.hero_title {
+	width: 70%;
+	margin: auto auto;
+	border: 4px solid #fff;
+	color: #fff;
+	text-align: center;
+}
